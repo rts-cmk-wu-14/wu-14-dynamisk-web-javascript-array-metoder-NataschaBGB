@@ -6,8 +6,8 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // --- Løs opgaverne herunder --- 
     //opgave 1: Med udgangspunkt i numbersArray, skal du oprette et nyt array, som indeholder alle de tal som er større end 20.
-    
-    // console.log(res1);
+    const res1 = numbersArray.filter((numb) => numb > 20)
+    console.log(res1);
 
     
     
