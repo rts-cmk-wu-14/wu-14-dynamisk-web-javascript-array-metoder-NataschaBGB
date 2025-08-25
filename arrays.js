@@ -6,6 +6,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // --- Løs opgaverne herunder --- 
     //opgave 1: Med udgangspunkt i numbersArray, skal du oprette et nyt array, som indeholder alle de tal som er større end 20.
+    console.log("Opgave 1")
     const res1 = numbersArray.filter((numb) => numb > 20)
     console.log(res1);
 
@@ -14,7 +15,7 @@ document.addEventListener("DOMContentLoaded", function () {
     // Opgave 2
     // Tilføj katten "Sniffles" til catsArray.
     // Udskriv arrayet i konsollen.
-    // console.log("Opgave 2", ...)
+    console.log("Opgave 2")
     const newCat = "Sniffles"
     catsArray.push(newCat)
     console.log(catsArray);
@@ -24,30 +25,22 @@ document.addEventListener("DOMContentLoaded", function () {
     // Opgave 3a
     // Check om der i dogsArray er en hund som hedder "Trixie".
     // Udskriv "true" eller "false" i konsollen afhængig af svaret.
-    // console.log("Opgave 3a", ...)
+    console.log("Opgave 3a")
+    const trixie = "Trixie"
     let boolA = true
-    if (dogsArray.includes("Trixie")) {
-        boolA = true
-        console.log(boolA)
-    }
-    else {
-        boolA = false
-        console.log(boolA)        
-    }
+    // if array contains string       if true        if false
+    dogsArray.includes(trixie) ? boolA = true : boolA = false;
+    console.log(boolA);
     
     // Opgave 3b
     // Check om der i dogsArray er en hund som hedder "Baxter".
     // Udskriv "true" eller "false" i konsollen afhængig af svaret.
-    // console.log("Opgave 3b", ...)
+    console.log("Opgave 3b")
+    const baxter = "Baxter"
     let boolB = true
-    if (dogsArray.includes("Baxter")) {
-        boolB = true
-        console.log(boolB)        
-    }
-    else {
-        boolB = false
-        console.log(boolB)        
-    }
+    // if array contains string       if true        if false
+    dogsArray.includes(baxter) ? boolB = true : boolB = false;
+    console.log(boolB);
 
     
     
@@ -55,11 +48,18 @@ document.addEventListener("DOMContentLoaded", function () {
     // Check om der i catsArray er en kat som hedder "Bagheera".
     // Udskriv katten i konsollen hvis den findes og ellers "undefined".
     // console.log("Opgave 4a", ...)
+    console.log("Opgave 4a")
+    const bagheera = "Bagheera"
+    // if array contains string      if true               if false
+    catsArray.includes(bagheera) ? console.log(bagheera) : console.log(undefined);
 
     // Opgave 4b
     // Check om der i catsArray er en kat som hedder "Salem".
     // Udskriv katten i konsollen hvis den findes og ellers "undefined".
-    // console.log("Opgave 4b", ...)
+    console.log("Opgave 4b")
+    const salem = "Salem"
+    // if array contains string      if true               if false
+    catsArray.includes(salem) ? console.log(salem) : console.log(undefined);
 
     
     
