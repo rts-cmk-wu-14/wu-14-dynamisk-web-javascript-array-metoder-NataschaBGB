@@ -81,7 +81,14 @@ document.addEventListener("DOMContentLoaded", function () {
     // Udskriv alle hundene i dogsArray i én lang streng.
     // (Sådan her: BarneyMollyBaxter...)
     // Udskriv strengen konsollen:
-    // console.log("Opgave 6", ...)
+    console.log("Opgave 6")
+    const dogsString = dogsArray.toString()
+    console.log(dogsString);
+    console.log("Opgave 6 med mellemrum:");
+    const dogsSpace = dogsArray.join(", ")
+    console.log(dogsSpace);
+    
+    
 
     
     
