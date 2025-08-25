@@ -113,8 +113,11 @@ document.addEventListener("DOMContentLoaded", function () {
     // Fjern hunden "Polly" fra dogsArray og udskriv det nye array i konsollen
     //  ["Barney", "Molly", "Baxter", "Polly", "Buddy", "Suki", "Watson"];
     console.log("Opgave 8")
-    // arrayToSplice.toSpliced(number in array to start at, how many to delete)
-    const splice = dogsArray.toSpliced(3, 1)
+    // find index of name to delete
+    const nameToDelete = dogsArray.indexOf("Polly")
+    console.log(nameToDelete);
+    // arrayToSplice.toSpliced(index of name to delete, how many to delete)
+    const splice = dogsArray.toSpliced(nameToDelete, 1)
     console.log(splice)
     
 
