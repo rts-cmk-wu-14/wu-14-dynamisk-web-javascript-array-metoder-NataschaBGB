@@ -25,11 +25,29 @@ document.addEventListener("DOMContentLoaded", function () {
     // Check om der i dogsArray er en hund som hedder "Trixie".
     // Udskriv "true" eller "false" i konsollen afhængig af svaret.
     // console.log("Opgave 3a", ...)
+    let boolA = true
+    if (dogsArray.includes("Trixie")) {
+        boolA = true
+        console.log(boolA)
+    }
+    else {
+        boolA = false
+        console.log(boolA)        
+    }
     
     // Opgave 3b
     // Check om der i dogsArray er en hund som hedder "Baxter".
     // Udskriv "true" eller "false" i konsollen afhængig af svaret.
     // console.log("Opgave 3b", ...)
+    let boolB = true
+    if (dogsArray.includes("Baxter")) {
+        boolB = true
+        console.log(boolB)        
+    }
+    else {
+        boolB = false
+        console.log(boolB)        
+    }
 
     
     
