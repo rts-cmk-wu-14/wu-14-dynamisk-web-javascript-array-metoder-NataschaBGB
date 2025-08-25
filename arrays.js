@@ -66,9 +66,16 @@ document.addEventListener("DOMContentLoaded", function () {
     //     Opgave 5
     // Med udgangspunkt i numbersArray, skal du oprette et nyt array, som indeholder alle tallene i arrayet ganget med 3.
     // Udskriv det nye array i konsollen:
-    // console.log("Opgave 5", ...)
-
+    console.log("Opgave 5")
+    // use the function to multiply every value with 3 on elemnents in numbersArray
+    const newArray = numbersArray.map(multiply);
+    // multiply every value with 3
+    function multiply(value) {
+        return value * 3;
+    }
+    console.log(newArray);
     
+
     
     //     Opgave 6
     // Udskriv alle hundene i dogsArray i én lang streng.
