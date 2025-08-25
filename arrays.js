@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", function () {
     //opgave 1: Med udgangspunkt i numbersArray, skal du oprette et nyt array, som indeholder alle de tal som er større end 20.
     console.log("Opgave 1")
     const res1 = numbersArray.filter((numb) => numb > 20)
-    console.log(res1);
+    console.log(res1)
 
     
     
@@ -18,7 +18,7 @@ document.addEventListener("DOMContentLoaded", function () {
     console.log("Opgave 2")
     const newCat = "Sniffles"
     catsArray.push(newCat)
-    console.log(catsArray);
+    console.log(catsArray)
 
     
     
@@ -30,7 +30,7 @@ document.addEventListener("DOMContentLoaded", function () {
     let boolA = true
     // if array contains string       if true        if false
     dogsArray.includes(trixie) ? boolA = true : boolA = false;
-    console.log(boolA);
+    console.log(boolA)
     
     // Opgave 3b
     // Check om der i dogsArray er en hund som hedder "Baxter".
@@ -40,7 +40,7 @@ document.addEventListener("DOMContentLoaded", function () {
     let boolB = true
     // if array contains string       if true        if false
     dogsArray.includes(baxter) ? boolB = true : boolB = false;
-    console.log(boolB);
+    console.log(boolB)
 
     
     
@@ -68,12 +68,12 @@ document.addEventListener("DOMContentLoaded", function () {
     // Udskriv det nye array i konsollen:
     console.log("Opgave 5")
     // use the function to multiply every value with 3 on elemnents in numbersArray
-    const newArray = numbersArray.map(multiply);
+    const newArray = numbersArray.map(multiply)
     // multiply every value with 3
     function multiply(value) {
-        return value * 3;
+        return value * 3
     }
-    console.log(newArray);
+    console.log(newArray)
     
 
     
@@ -83,36 +83,40 @@ document.addEventListener("DOMContentLoaded", function () {
     // Udskriv strengen konsollen:
     console.log("Opgave 6")
     const dogsString = dogsArray.toString()
-    console.log(dogsString);
-    console.log("Opgave 6 med mellemrum:");
+    console.log(dogsString)
+    console.log("Opgave 6 med mellemrum:")
     const dogsSpace = dogsArray.join(", ")
-    console.log(dogsSpace);
+    console.log(dogsSpace)
     
     
     
     //     Opgave 7a
     // Find ud af hvilket index "Mango" har i fruitsArray.
     // Udskriv indexet i konsollen.
-    console.log("Opgave 7a");
+    console.log("Opgave 7a")
     const mango = fruitsArray.indexOf("Mango")
-    console.log(mango);
+    console.log(mango)
     
 
     // Opgave 7b
     // Find ud af hvilket index "Blåbær" har i fruitsArray.
     // Udskriv indexet i konsollen.
-    console.log("Opgave 7b");
+    console.log("Opgave 7b")
     const blåbær = fruitsArray.indexOf("Blåbær")
-    console.log(blåbær);
+    console.log(blåbær)
     
     
+
     // Opgave 8
     // Lad os forestille os, at dogsArray er en liste af tilmeldte hunde til en udstilling.
     // Den familie der har hunden "Polly" er desværre blevet forhindret i at deltage i udstillingen.
     // Fjern hunden "Polly" fra dogsArray og udskriv det nye array i konsollen
     //  ["Barney", "Molly", "Baxter", "Polly", "Buddy", "Suki", "Watson"];
+    console.log("Opgave 8")
+    // arrayToSplice.toSpliced(number in array to start at, how many to delete)
+    const splice = dogsArray.toSpliced(3, 1)
+    console.log(splice)
     
-    // console.log("Opgave 8", dogsArray);
 
 }) // ends DOMContentLoaded
 
