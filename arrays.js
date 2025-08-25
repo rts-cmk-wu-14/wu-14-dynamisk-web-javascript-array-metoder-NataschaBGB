@@ -89,17 +89,21 @@ document.addEventListener("DOMContentLoaded", function () {
     console.log(dogsSpace);
     
     
-
-    
     
     //     Opgave 7a
     // Find ud af hvilket index "Mango" har i fruitsArray.
     // Udskriv indexet i konsollen.
+    console.log("Opgave 7a");
+    const mango = fruitsArray.indexOf("Mango")
+    console.log(mango);
+    
 
     // Opgave 7b
     // Find ud af hvilket index "Blåbær" har i fruitsArray.
     // Udskriv indexet i konsollen.
-
+    console.log("Opgave 7b");
+    const blåbær = fruitsArray.indexOf("Blåbær")
+    console.log(blåbær);
     
     
     // Opgave 8
